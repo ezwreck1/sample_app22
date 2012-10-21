@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
+<<<<<<< HEAD
 gem 'bcrypt-ruby', '3.0.1'
+=======
+>>>>>>> 72e6f549a5935c19e49be2c813c342b4c91ad75a
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -10,18 +13,29 @@ group :development, :test do
 gem 'sqlite3', :require => 'sqlite3'
 end
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 72e6f549a5935c19e49be2c813c342b4c91ad75a
 group :production do
   gem "pg"
 end
 
 group :development do
+<<<<<<< HEAD
   gem 'rspec-rails', '2.6.1.beta1'
   gem 'annotate'
 end
 
 group :test do
  gem 'rspec', '	2.6'
+=======
+  gem 'rspec-rails', '2.0.1'
+end
+
+group :test do
+ gem 'rspec', '2.0.1'
+>>>>>>> 72e6f549a5935c19e49be2c813c342b4c91ad75a
  gem 'webrat', '0.7.1'
 end
 
